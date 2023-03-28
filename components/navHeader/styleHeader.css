@@ -1,0 +1,93 @@
+/*---------------------------------------- CONFIG DA PÁGINA---------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap'); /* Roboto e Poppins */
+/* 
+font-family: 'Poppins', sans-serif; // Logo
+font-family: 'Roboto', sans-serif; // Sistema
+*/
+
+/*---------------------------------------- HEADER ---------------------------------------- */
+.container {
+    height: 10%; width:100%;
+    background-color: #0c51cf;
+    display: flex;
+    gap: 42px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-cabecalho{
+    display: flex;
+    gap: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif; font-weight: bold;
+    color: #efefef;
+    width: 110px;
+}
+
+#navHeader {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.container-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;   
+}
+
+#div_profile_img{
+    width:5%; height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+#header_profile_img{
+    height:75%; width:75%;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.btnSearch{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 30.5px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+}
+
+#form_search{
+    display: flex;
+    flex-direction: row;
+}
+
+.btnSearch:hover{
+    background-color: rgb(216, 212, 212);
+    cursor: pointer;
+}
+
+.searchbar{
+    width: 60%;
+    height: 30.5px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}

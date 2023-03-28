@@ -6,13 +6,18 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; 
 */
 
+/* CONFIGURAÇÕES DA PÁGINA */
+
 * {
     margin: 0px;
 }
 body {
     background-image: linear-gradient(rgb(4, 159, 255), rgb(0, 204, 255));
-    /* font-family: 'Roboto', sans-serif;  */
+    font-family: 'Roboto', sans-serif; 
 }
+
+/* CONFIGURAÇÃO DA DIV'S */
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -57,8 +62,46 @@ body {
     background-color: white;
 }
 
-h3 {
-    margin-top: 50px;
+/* LABEL'S */
+
+label {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+strong {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* ESTILIZAÇÃO DO FORM */
+
+.form_input{
+    padding: 0 0 0 15px;
+    margin: 0 0 25px 0;
+    width: 160%;
+    height: 36px;
+    outline:none;
+    border:none;
+}
+
+.form_input:focus{
+    border-bottom: 2px solid red;
 }
 
 form {
@@ -69,7 +112,22 @@ form {
     color: white;
 }
 
-p {
-    text-align: center;
-    margin-top: 30px;
+/* CONFIG BOTÃO */
+#input-prosseguir{
+    width: 60%;
+    height: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #105ac9;
+    font-weight: bold;
+    border-radius:15px;
+    font-size:16px;
+    border: 2px solid black;
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+#input-prosseguir:hover {
+    background-color: #105ac9;
+    color: white;
 }

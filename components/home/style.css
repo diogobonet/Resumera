@@ -1,0 +1,247 @@
+/*---------------------------------------- CONFIG DA PÁGINA---------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap'); /* Roboto e Poppins */
+/* 
+font-family: 'Poppins', sans-serif; // Logo
+font-family: 'Roboto', sans-serif; // Sistema
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6edf0;
+    height:100vh; width:100vw;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+/*---------------------------------------- HEADER ---------------------------------------- */
+.container {
+    background-color: #0c51cf;
+    display: flex;
+    gap: 42px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-cabecalho{
+    display: flex;
+    gap: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    color: #efefef;
+    width: 110px;
+}
+
+
+nav {
+    color: white;
+    text-align: center;
+}
+
+.container-link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.profile-image{
+    max-width: 3%;
+    max-height: 3%;
+    border-radius: 2px;
+}
+
+/* ---------------------------------------- MAIN ---------------------------------------- */
+.main {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+li {
+    list-style: none;
+}
+
+div.novoPost {
+    width: 100%;
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    margin: 50px 0;
+    padding: 25px;
+
+    border-radius: 15px;
+    box-shadow: 1px 0 3px gray;
+}
+
+div.novoPost div.infoUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.novoPost div.infoUser strong {
+    font-size: 17px;
+    margin: 10px;
+    color: blue;
+}
+
+form.formPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form.formPost textarea {
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+div.Button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.icones {
+    width: 100px;
+    outline: none;
+    border: 0;
+    background: white;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btnSubmitForm {
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    background-color: #0c51cf;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+}
+
+.btnSubmitForm:hover {
+    background-color: #6975ad;
+}
+
+#imgUser_div{
+    height:30px; width:30px;
+}
+
+.imgUser{
+    height:100%; width: 100%;
+    border-radius: 50px;
+}
+
+ul.posts li.post {
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 25px;
+    box-shadow: 1px 0 3px gray;
+    text-align: justify;
+}
+
+ul.posts li.post div.infoUser div.nameAndHour {
+    margin-left: 10px;
+}
+
+ul.posts li.post div.infoUser {
+    display: flex;
+    align-items: center;
+}
+
+ul.posts li.post div.infoUser div.imgUserPost {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+ul.posts li.post div.infoUser div.nameAndHour > strong {
+    color: blue;
+}
+
+ul.posts li.post div.infoUser div.nameAndHour > p {
+    color: gray;
+    font-size: 12px;
+}
+
+ul.posts li.post > p {
+    width: 100%;
+    margin: 20px 0;
+}
+
+ul.posts li.post div.actionBtnPost {
+    display: flex;
+    align-items: center;
+}
+
+ul.posts li.post div.actionBtnPost button.filesPost img {
+    margin-right: 5px
+}
+
+ul.posts li.post div.actionBtnPost button.filesPost {
+    padding: 5px 20px;
+    border-radius:10px;
+    border: 0px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2;
+}
+
+.like {
+    background-color: rgb(211, 208, 208);
+}
+.like:hover {
+    background-color: #fc3542;
+}
+
+.comment {
+    background-color: rgb(211, 208, 208);
+}
+
+.comment:hover {
+    color: white;
+    background-color: #2572E8;
+    
+}
+
+.share {
+    background-color: rgb(211, 208, 208);
+}
+.share:hover {
+    background-color: rgb(110, 184, 110);
+}
+
+.post_text{
+    font-family: 'Poppins', sans-serif;
+}
+
